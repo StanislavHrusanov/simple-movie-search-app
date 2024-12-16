@@ -1,0 +1,47 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 100vh;
+  background-image: url("./assets/cinema-theater-screen-red-interior-mdii641t9soyox58.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.content {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+.search {
+  position: absolute;
+  top: 0px;
+  margin-top: 0.9rem;
+}
+
+.search button {
+  border-radius: 3px;
+  border: none;
+  margin-left: 1px;
+  padding: 2px 4px;
+  background-color: #e4c687;
+  cursor: pointer;
+}
+
+.search input {
+  border-radius: 3px;
+  border: none;
+  padding: 2px 4px;
+  background-color: #f9f4d8;
+}
