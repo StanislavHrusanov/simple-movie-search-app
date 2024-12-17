@@ -1,0 +1,25 @@
+.search {
+    position: absolute;
+    top: 0px;
+    margin-top: 2rem;
+  }
+  
+  .search button {
+    border-radius: 3px;
+    border: none;
+    margin-left: 1px;
+    padding: 4px 8px;
+    background-color: #e4c687;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .search input {
+    width: 250px;
+    border-radius: 3px;
+    border: none;
+    padding: 4px 8px;
+    background-color: #f9f4d8;
+    font-size: 1rem;
+  }
+  
