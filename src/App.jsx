@@ -6,7 +6,6 @@ function App() {
   const [input, setInput] = useState("");
   const [url, setUrl] = useState("");
   const [movie, setMovie] = useState({});
-  console.log(movie);
 
   useEffect(() => {
     if (url) {
