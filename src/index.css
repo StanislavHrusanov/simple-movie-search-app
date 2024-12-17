@@ -6,6 +6,12 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
+  position: relative;
+  height: 100vh;
+  background-image: url("./assets/cinema-theater-screen-red-interior-mdii641t9soyox58.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
